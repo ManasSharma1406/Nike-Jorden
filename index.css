@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Aura;
+    src: url(Nasalization\ Rg.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Aura;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    position: relative;
+    background-image: url(Air\ Jordan\ Wallpaper\ By\ Jobhani.jpg);
+    background-size: contain;
+}
+
+#nav {
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: fixed;
+    z-index: 999;
+}
+
+#nav img {
+    height: 60px;
+    margin-right: 170px;
+}
+
+#nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav1 h4 {
+    margin-right: 60px;
+    font-size: 16px;
+    font-weight: 200;
+
+}
+
+#nav2 i {
+    margin-right: 60px;
+    font-size: 22px;
+    font-weight: 200;
+
+}
+
+
+#left {
+    height: 100%;
+    width: 40%;
+    /* background-color: red; */
+    padding: 182px 129px;
+}
+
+#left h5 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#left h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#left p {
+    font-size: 14px;
+    margin-bottom: 48px;
+}
+
+#left button {
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border-top-left-radius: 0px;
+}
+
+#right {
+    height: 100%;
+    width: 60%;
+    /* background-color: blue; */
+    position: relative;
+    padding: 120px 10px;
+    white-space: nowrap;
+}
+
+.elem {
+    height: 500px;
+    width: 380px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(37, 36, 36);
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.elem img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.elem h4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: aquamarine;
+    padding: 12px 20px;
+    border-radius: 6px;
+
+}
+
+.elem h5 {
+    position: absolute;
+    right: 0;
+    bottom: 8%;
+    background-color: rgb(0, 0, 0);
+    font-weight: 400;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 12px;
+
+}
